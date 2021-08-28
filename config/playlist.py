@@ -1,0 +1,1 @@
+playlis = '1. Lordi - Hard Rock Hallelujah'
