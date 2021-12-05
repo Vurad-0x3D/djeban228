@@ -5,6 +5,7 @@ from config.playlist import playlis
 import youtube_dl
 import os
 import time
+from asyncio import run_coroutine_threadsafe as rct
 
 bot = commands.Bot(command_prefix='!')
 
@@ -14,7 +15,7 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    if message.channel.name == 'бот':
+    if message.channel.name == 'канал-геев':
         await bot.process_commands(message)
         time.sleep(5)
         await message.channel.purge(limit=1)
@@ -37,7 +38,7 @@ async def play(ctx, *,command = None):
     poslushat = author.voice.channel.name
     botik = ctx.channel.name
 
-    if poslushat == 'послушать музыку' and botik == 'бот':
+    if poslushat == 'концерт пошле моле' and botik == 'бот':
         if command is None:
             server = ctx.guild
             name_channel = author.voice.name
@@ -155,7 +156,7 @@ async def plist(ctx):
     await ctx.channel.send(playlis)
 
 @bot.command()
-async def playlist(ctx, *,command = None):
+async def playlist(ctx, *,command = None, n):
     global server, server_id, name_channel
     author = ctx.author
     poslushat = author.voice.channel.name
