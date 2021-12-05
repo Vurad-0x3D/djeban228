@@ -38,7 +38,7 @@ async def play(ctx, *,command = None):
     poslushat = author.voice.channel.name
     botik = ctx.channel.name
 
-    if poslushat == 'концерт пошле моле' and botik == 'бот':
+    if poslushat == 'концерт пошле моле' and botik == 'канал-геев':
         if command is None:
             server = ctx.guild
             name_channel = author.voice.name
@@ -156,13 +156,13 @@ async def plist(ctx):
     await ctx.channel.send(playlis)
 
 @bot.command()
-async def playlist(ctx, *,command = None, n):
+async def playlist(ctx, *,command = None):
     global server, server_id, name_channel
     author = ctx.author
     poslushat = author.voice.channel.name
     botik = ctx.channel.name
 
-    if poslushat == 'послушать музыку' and botik == 'бот':
+    if poslushat == 'концерт пошле моле' and botik == 'канал-геев':
         if command is None:
             server = ctx.guild
             name_channel = author.voice.name
