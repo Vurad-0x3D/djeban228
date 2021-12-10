@@ -1,1 +1,1 @@
-playlis = '1. Lordi - Hard Rock Hallelujah'
+playlis = '1. Lordi - Hard Rock Hallelujah\n2. BAV - ПЧЕЛОБАВ УРОД\n3. Ебанько - Ебу собак\n4. KSLV Noh - Disaster musmore\n5. Freddie Dredd - GTG\n6. PlayaPhonk - Phonky Town\n7. Liue - Suffer With Me Tiktok Edit\n8. Brand New - Not The Sun'
