@@ -157,7 +157,7 @@ async def plist(ctx):
 
 @bot.command()
 async def playlist(ctx, *,command = None):
-    global server, server_id, name_channel, replay
+    global server, server_id, name_channel, replay, src
     author = ctx.author
     poslushat = author.voice.channel.name
     botik = ctx.channel.name
@@ -202,7 +202,6 @@ async def playlist(ctx, *,command = None):
     else:
         return
 
-'''
 while True:
     voice = discord.utils.get(bot.voice_clients, guild=server)
     if replay == 1:
@@ -223,6 +222,5 @@ while True:
             pass
     else:
         pass
-'''
 
 bot.run(token)
