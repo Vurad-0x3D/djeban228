@@ -202,6 +202,7 @@ async def playlist(ctx, *,command = None):
     else:
         return
 
+'''
 while True:
     voice = discord.utils.get(bot.voice_clients, guild=server)
     if replay == 1:
@@ -222,5 +223,6 @@ while True:
             pass
     else:
         pass
+'''
 
 bot.run(token)
