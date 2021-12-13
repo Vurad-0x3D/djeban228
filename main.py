@@ -157,7 +157,7 @@ async def plist(ctx):
 
 @bot.command()
 async def playlist(ctx, *,command = None):
-    global server, server_id, name_channel
+    global server, server_id, name_channel, replay
     author = ctx.author
     poslushat = author.voice.channel.name
     botik = ctx.channel.name
@@ -196,6 +196,7 @@ async def playlist(ctx, *,command = None):
                     }
                 ],
             }
+            replay = 1
             youtube_dl.YoutubeDL(ydl_opts)
             voice.play(discord.FFmpegPCMAudio(f'playlist/{src}.mp3'))
     else:
@@ -203,7 +204,7 @@ async def playlist(ctx, *,command = None):
 
 while True:
     voice = discord.utils.get(bot.voice_clients, guild=server)
-    if replay is 1:
+    if replay == 1:
         if not voice.is_playing():
             ydl_opts = {
                 'format': 'bestaudio/best',
