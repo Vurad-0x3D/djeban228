@@ -22,7 +22,7 @@ async def on_message(message):
     else:
         return
 
-server, server_id, name_channel, replay, src = None, None, None, None, 0
+server, server_id, name_channel = None, None, None
 
 domains = ['http://www.youtube.com/','https://www.youtube.com/','http://youtu.be/','https://youtu.be/']
 async def check_domains(link):
@@ -157,7 +157,7 @@ async def plist(ctx):
 
 @bot.command()
 async def playlist(ctx, *,command = None):
-    global server, server_id, name_channel, replay, src
+    global server, server_id, name_channel
     author = ctx.author
     poslushat = author.voice.channel.name
     botik = ctx.channel.name
@@ -169,7 +169,7 @@ async def playlist(ctx, *,command = None):
 
         params = command.split(' ')
         if len(params) == 1:
-            src = params[0]
+            source = params[0]
             server = ctx.guild
             name_channel = author.voice.channel.name
             voice_channel = discord.utils.get(server.voice_channels, name=name_channel)
@@ -183,7 +183,7 @@ async def playlist(ctx, *,command = None):
             await voice_channel.connect()
             voice = discord.utils.get(bot.voice_clients, guild = server)
 
-        if src is None:
+        if source is None:
             pass
         else:
             ydl_opts = {
@@ -196,31 +196,9 @@ async def playlist(ctx, *,command = None):
                     }
                 ],
             }
-            replay = 1
             youtube_dl.YoutubeDL(ydl_opts)
-            voice.play(discord.FFmpegPCMAudio(f'playlist/{src}.mp3'))
+            voice.play(discord.FFmpegPCMAudio(f'playlist/{source}.mp3'))
     else:
         return
-
-while True:
-    voice = discord.utils.get(bot.voice_clients, guild=server)
-    if replay == 1:
-        if not voice.is_playing():
-            ydl_opts = {
-                'format': 'bestaudio/best',
-                'postprocessors': [
-                    {
-                        'key': 'FFmpegExtractAudio',
-                        'preferredcodec': 'mp3',
-                        'preferredquality': '192',
-                    }
-                ],
-            }
-            youtube_dl.YoutubeDL(ydl_opts)
-            voice.play(discord.FFmpegPCMAudio(f'playlist/{src+1}.mp3'))
-        else:
-            pass
-    else:
-        pass
 
 bot.run(token)
