@@ -4,4 +4,5 @@ playlis = '1. Lordi - Hard Rock Hallelujah\n2. BAV - ПЧЕЛОБАВ УРОД\n
 15. RXLZQ - Town\n16. RXLZQ - Falling\n17. RXLZQ - FVCK\n18. SYML - Mr.Sandman\n19. Автоспорт - Песня о привязанности\n\
 20. Форсаж 5 – Мы едем в лето\n21. AXIUS LINK – не догонят\n22. My Chemical_Romance - Na Na Na Na Na Na Na Na Na Na Na Na\n\
 23. The Pretty Reckless - Just Tonight-1\n24. Творожное Озеро - Юные\n25. Molchat Doma - Тоска\n26. Колбасный цех 6 – Track 16\n\
-27. Skrillex & Damian - Make It Bun Dem\n28. Good buy - Mother Fucker\n29. Julie Roué - Revolution Day'
+27. Skrillex & Damian - Make It Bun Dem\n28. Good buy - Mother Fucker\n29. Julie Roué - Revolution Day\n30. Ебанько - Ландаши\n\
+31. Ебанько - Он дрочил три\n32. Баранович - Русский городок\n33. Nokia - Arabic ringtone nokia'

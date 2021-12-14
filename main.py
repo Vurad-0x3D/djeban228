@@ -227,7 +227,7 @@ def replay(self):
         ],
     }
     youtube_dl.YoutubeDL(ydl_opts)
-    if src == 30:
+    if src == 34:
         src = 1
     else:
         src += 1
