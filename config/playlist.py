@@ -8,5 +8,5 @@ playlis = '1. Lordi - Hard Rock Hallelujah\n2. BAV - ПЧЕЛОБАВ УРОД\n
 31. Ебанько - Он дрочил три\n32. Баранович - Русский городок\n33. Nokia - Arabic ringtone nokia\n34. DVRST - Your Name\n\
 35. My Chemical_Romance - Teenagers\n36. Kim Petras - Demons\n37. Flowers\n38. plenka - hello kids Nightmare\n\
 39. A4 MC ORSEN BABY X - Kids Phonk\n40. Цой - Последний герой\n41. Michel David - Ai Se Eu Te Pego\n42. Gachi - Right Version\n\
-43. Depeche Mode - Enjoy the silence Rock\n44. YaaTolyaa - Phonk Remix\n 45.plenka - Next Day Was Yesterday\n46. Ебонько - Голубая луна\n\
+43. Depeche Mode - Enjoy the silence Rock\n44. YaaTolyaa - Phonk Remix\n45. plenka - Next Day Was Yesterday\n46. Ебонько - Голубая луна\n\
 47. Roy Orbison - Pretty Woman\n48. Армен - Молодость Моя'
