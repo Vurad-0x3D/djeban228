@@ -5,8 +5,8 @@ playlis = '1. Lordi - Hard Rock Hallelujah\n2. BAV - ПЧЕЛОБАВ УРОД\n
 20. Форсаж 5 – Мы едем в лето\n21. AXIUS LINK – не догонят\n22. My Chemical_Romance - Na Na Na Na Na Na Na Na Na Na Na Na\n\
 23. The Pretty Reckless - Just Tonight-1\n24. Творожное Озеро - Юные\n25. Molchat Doma - Тоска\n26. Колбасный цех 6 – Track 16\n\
 27. Skrillex & Damian - Make It Bun Dem\n28. Good buy - Mother Fucker\n29. Julie Roué - Revolution Day\n30. Ебанько - Ландаши\n\
-31. Ебанько - Он дрочил три\n32. Баранович - Русский городок\n33. Nokia - Arabic ringtone nokia\n 34. DVRST - Your Name\n\
-35. My Chemical_Romance - Teenagers\n 36. Kim Petras - Demons\n 37. Flowers\n 38. plenka - hello kids Nightmare\n\
-39. A4 MC ORSEN BABY X - Kids Phonk\n 40. Цой - Последний герой\n 41. Michel David - Ai Se Eu Te Pego\n 42. Gachi - Right Version\n\
-43. Depeche Mode - Enjoy the silence Rock\n 44. YaaTolyaa - Phonk Remix\n 45. plenka - Next Day Was Yesterday\n 46. Ебонько - Голубая луна\n\
-47. Roy Orbison - Pretty Woman'
+31. Ебанько - Он дрочил три\n32. Баранович - Русский городок\n33. Nokia - Arabic ringtone nokia\n34. DVRST - Your Name\n\
+35. My Chemical_Romance - Teenagers\n36. Kim Petras - Demons\n37. Flowers\n38. plenka - hello kids Nightmare\n\
+39. A4 MC ORSEN BABY X - Kids Phonk\n40. Цой - Последний герой\n41. Michel David - Ai Se Eu Te Pego\n42. Gachi - Right Version\n\
+43. Depeche Mode - Enjoy the silence Rock\n44. YaaTolyaa - Phonk Remix\n 45.plenka - Next Day Was Yesterday\n46. Ебонько - Голубая луна\n\
+47. Roy Orbison - Pretty Woman\n48. Армен - Молодость Моя'
