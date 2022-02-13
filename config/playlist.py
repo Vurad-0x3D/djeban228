@@ -65,4 +65,6 @@ playlis = '\
 64. О, Боже, какой мужчина\n\
 65. Мужицкий дождь\n\
 66. Это новый бравл старс\n\
+67. ELVEN DIOR - RAGE\n\
+68. Kordhell - Live Another Day\n\
 '
