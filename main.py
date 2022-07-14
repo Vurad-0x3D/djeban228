@@ -15,7 +15,7 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    if message.channel.name == 'канал-геев':
+    if message.channel.name == 'бот':
         await bot.process_commands(message)
         time.sleep(5)
         await message.channel.purge(limit=1)
@@ -39,7 +39,7 @@ async def play(ctx, *,command = None):
     poslushat = author.voice.channel.name
     botik = ctx.channel.name
 
-    if poslushat == 'концерт пошле моле' and botik == 'канал-геев':
+    if poslushat == 'послушать музыку' and botik == 'бот':
         if command is None:
             server = ctx.guild
             name_channel = author.voice.name
@@ -174,7 +174,7 @@ async def playlist(ctx, *,command = None):
     poslushat = author.voice.channel.name
     botik = ctx.channel.name
 
-    if poslushat == 'концерт пошле моле' and botik == 'канал-геев':
+    if poslushat == 'послушать музыку' and botik == 'бот':
         if command is None:
             server = ctx.guild
             name_channel = author.voice.name
